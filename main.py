@@ -708,7 +708,6 @@ HTML = r"""<!doctype html>
     --focus: rgba(37,99,235,.25);
   }
   *{box-sizing:border-box}
-  html,body{height:100%}
   body{
     margin:0;
     font-family:var(--font);
