@@ -1,5 +1,15 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+"""
+API:
+- GET /api/health          -> Überprüft den Zustand des Dienstes
+- GET /api/levels          -> Ruft die verfügbaren Quiz-Level ab
+- POST /api/run/start      -> Startet einen neuen Quiz-Durchlauf
+- POST /api/run/resume     -> Setzt einen unterbrochenen Quiz-Durchlauf fort
+- POST /api/run/question   -> Ruft eine bestimmte Frage innerhalb eines Durchlaufs ab
+- POST /api/run/answer     -> Übermittelt eine Antwort auf eine Frage
+- GET /media/<path:rel_path> -> Dient zum Ausliefern von Mediendateien
+"""
 
 """
 PAW Patrol Quiz (Level-Run wie beim HP-Quiz)
